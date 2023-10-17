@@ -3,7 +3,8 @@ import tkinter as tk
 userInt = tk.Tk()
 userInt.geometry("500x400")
 userInt.title("My calculator")
-label = tk.Label(userInt, text="My calculator", font=('Times New Roman', 18))
+userInt.configure(bg='pink')
+label = tk.Label(userInt, text="My calculator", font=('Times New Roman', 18), bg='pink')
 label.pack(padx=20, pady=20)
 
 textbox = tk.Text(userInt, height=3, font=('Arial', 16))
