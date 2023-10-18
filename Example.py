@@ -7,7 +7,7 @@ userInt.configure(bg='pink')
 label = tk.Label(userInt, text="My calculator", font=('Times New Roman', 18), bg='pink')
 label.pack(padx=20, pady=20)
 
-textbox = tk.Text(userInt, height=3, font=('Arial', 16))
+textbox = tk.Text(userInt, height=3, font=('Arial', 16), state='disabled')
 textbox.pack(padx=10, pady=10)
 
 #button = tk.Button(root, text="Click me!", font=('Arial', 18))
