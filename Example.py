@@ -1,7 +1,7 @@
 import tkinter as tk
 
 userInt = tk.Tk()
-userInt.geometry("500x400")
+userInt.geometry("500x500")
 userInt.title("My calculator")
 userInt.configure(bg='pink')
 label = tk.Label(userInt, text="My calculator", font=('Times New Roman', 18), bg='pink')
@@ -62,6 +62,9 @@ btn6.grid(row=4, column=1, sticky=tk.W+tk.E)
 
 btn6 = tk.Button(buttonFrame, text="=", font=('Times New Roman', 18, 'bold'), bg='#B3EB8A', border='3')
 btn6.grid(row=4, column=2, sticky=tk.W+tk.E)
+
+clearButton = tk.Button(buttonFrame, text='Clear', font=('Times New Roman', 18, 'bold'), bg='#bae1ff', border='3')
+clearButton.grid(row=5, columnspan = 3, sticky=tk.W + tk.E)
 
 buttonFrame.pack(fill='x')
 
