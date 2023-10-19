@@ -1,7 +1,7 @@
 import tkinter as tk
 
 userInt = tk.Tk()
-userInt.geometry("500x500")
+userInt.geometry("300x500")
 userInt.title("My calculator")
 userInt.configure(bg='pink')
 label = tk.Label(userInt, text="My calculator", font=('Times New Roman', 18), bg='pink')
