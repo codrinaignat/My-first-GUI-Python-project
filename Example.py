@@ -64,7 +64,10 @@ btn6 = tk.Button(buttonFrame, text="=", font=('Times New Roman', 18, 'bold'), bg
 btn6.grid(row=4, column=2, sticky=tk.W+tk.E)
 
 clearButton = tk.Button(buttonFrame, text='Clear', font=('Times New Roman', 18, 'bold'), bg='#bae1ff', border='3')
-clearButton.grid(row=5, columnspan = 3, sticky=tk.W + tk.E)
+clearButton.grid(row=5, columnspan = 2, sticky=tk.W + tk.E)
+
+decimalPoint = tk.Button(buttonFrame, text=".", font=('Times New Roman', 18, 'bold'), bg='#B3EB8A', border='3')
+decimalPoint.grid(row=5, column=2, sticky=tk.W + tk.E)
 
 buttonFrame.pack(fill='x')
 
