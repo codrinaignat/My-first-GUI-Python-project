@@ -4,3 +4,4 @@ Example.py -> contains a GUI made in Python as a simple calculator with buttons,
 
 main.py -> contains a test GUI made in Python with no complex functionalities, some buttons, menus. It was created using a tutorial and it's just for learning purpose only. 
 
+https://www.geeksforgeeks.org/python-simple-gui-calculator-using-tkinter/
