@@ -40,7 +40,7 @@ if __name__ == "__main__":
 
     equation = StringVar()
 
-    expression_field = Entry(gui, textvariable=equation, font=('Times New Roman', 18))
+    expression_field = Entry(gui, textvariable=equation, font=('Times New Roman', 18), state='disabled')
 
     expression_field.grid(columnspan=4, ipadx=90, ipady=20, padx=10, pady=10)
 
